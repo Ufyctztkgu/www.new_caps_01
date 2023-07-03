@@ -1,0 +1,169 @@
+html{
+    background:  #55eaff;
+}
+*{
+    padding:0px;
+    margin: 0px;
+}
+html{
+    background: c0c0c0;
+}
+body{
+    height: 750px;
+    width: 750px;
+    background: #c0c0c0;
+    margin: auto;
+    margin-top: 15px;
+}
+header{
+    height: 250px;
+    width: 750px;
+    background: #CB4335;
+}
+#banner{
+    width: 500px;
+    height: 250px;
+    background: #17202A;
+    float: right;
+}
+#logo{
+    width: 250px;
+    height: 125px;
+    background: #000000;
+}
+#buscador{
+    width: 250px;
+    height: 125px;
+    background: cyan;
+}
+nav{
+    height: 50px;
+    background: #000000;
+}
+nav ul{
+    list-style: none;
+}
+nav a{
+    color: #FBFCFC;
+    text-decoration: none;
+    padding: 40px;
+}
+nav ul li{
+    float: left;
+}
+main{
+    height: 400px;
+    width: 750px;
+    background: #EC407A;
+}
+#lado-izquierdo{
+    height: 400px;
+    width: 150px;
+    background: cyan;
+    float: left;
+}
+#lado-izquierdo ul{
+    list-style: none;
+}
+#lado-izquierdo a{
+    text-decoration: none;
+    padding: 40px;
+}
+article{
+    width: 500px;
+    height: 400px;
+    background: #FF8F00;
+    float: left;
+}
+#lado-derecho{
+    height: 0px;
+    width: 00px;
+    background: #ff000a;
+    float: left;
+}
+footer{
+    height: 50px;
+    background: #000000;
+}
+footer ul{
+    list-style: none;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+footer ul li{
+    float: left;
+}
+
+
+
+
+
+.Portafolio{
+    background: #55eaff;
+}
+
+.galeria-port{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.imagen-port{
+    width: 30%;
+    margin-bottom: 10px;
+    height: 180;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 rgba(0,0,0,.5);
+}
+
+.imagen-port > img{
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    display: block;
+}
+
+.hover-galeria{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    transform: scale(0);
+    background: hsla(273,91%,27%,0.7);
+    ttransition: transform .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hover-galeria img{
+    width: 50px;
+}
+
+.hover-galeria p{
+    color: white;
+}
+
+form {
+    width: 750px;
+    height: 400px;
+    margin: 0 auto;   
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #8098ff;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 17px;
+    font-weight: bold;    
+    box-sizing: border-box;    
+    cursor: pointer;
+    color: #512E5F;
+    background: #55eaff;
+    
+}
